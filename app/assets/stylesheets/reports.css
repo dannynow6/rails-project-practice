@@ -35,8 +35,37 @@
 
 #rep-title {
     font-family: monospace; 
+    margin: 15px; 
     font-weight: 400;
     font-size: 1.5rem; 
     color:rgb(65, 68, 68); 
     text-align: center; 
+    padding-bottom: 10px; 
+    border-bottom: 2px solid rgba(138, 138, 138, 0.5); 
+}
+
+#rep-show-main {
+    margin: 20px; 
+    flex-grow: 1; 
+}
+
+#rep-body {
+    font-family: monospace; 
+    font-size: 1rem; 
+}
+
+#wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+#footer {
+    text-align: center;
+    font-family: monospace; 
+    font-weight: 300; 
+    border-top: 1px solid rgb(175, 178, 180, 0.5); 
+    padding: 10px; 
+    margin: 20px; 
+    background-color:rgba(169, 222, 252, 0.15); 
 }
