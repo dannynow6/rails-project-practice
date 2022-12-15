@@ -1,0 +1,19 @@
+<h1 id="main-title">
+    Project 2
+</h1>
+
+<br>
+
+<div id="main-section">
+    <h2 id="sub-title">Reports</h2>
+    <br>
+    <ul id="report-list">
+        <% @reports.each do |report| %>
+            <li id="report">
+                <a href="/reports/<%= report.id %>">
+                    <%= report.title %> 
+                </a>
+            </li>
+        <% end %>
+    </ul>
+</div>

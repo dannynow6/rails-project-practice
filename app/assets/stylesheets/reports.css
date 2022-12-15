@@ -1,0 +1,42 @@
+#main-title {
+    color: rgb(72, 197, 250);
+    border-bottom: 2px solid grey; 
+    padding-bottom: 10px; 
+    margin: 15px; 
+    text-align: center; 
+    background-color:rgb(235, 246, 251, 0.5);
+    font-family: monospace; 
+    font-weight: 400; 
+    font-size: 3rem; 
+}
+
+#main-section {
+    margin: 20px; 
+}
+
+#sub-title {
+    font-family: monospace; 
+    font-weight: 400;
+    font-size: 1.5rem; 
+    color:rgb(65, 68, 68); 
+    text-align: center; 
+}
+
+#report-list {
+    list-style-type: circle; 
+}
+
+#report {
+    padding: 5px; 
+    color:rgb(40, 73, 91);
+    font-family: monospace; 
+    font-size: 1rem; 
+}
+
+#rep-title {
+    font-family: monospace; 
+    font-weight: 400;
+    font-size: 1.5rem; 
+    color:rgb(65, 68, 68); 
+    text-align: center; 
+}
